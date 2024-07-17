@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb2d9b1-9d7e-4b37-9d99-658c1c2aa84d" name="Changes" comment="create new branches">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json_saver.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/json_saver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_vacancy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_vacancy.py" afterDir="false" />
+    <list default="true" id="4bb2d9b1-9d7e-4b37-9d99-658c1c2aa84d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/course_work_4.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/get_vacancies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hh_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json_saver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vacancies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vacancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_vacancy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +40,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -46,14 +57,12 @@
     "Python tests.Python tests in test_vacancy.py.executor": "Run",
     "Python.config.executor": "Run",
     "Python.conftest.executor": "Run",
-    "Python.get_vacancies.executor": "Run",
     "Python.hh_api.executor": "Run",
     "Python.main.executor": "Run",
-    "Python.utils.executor": "Run",
     "Python.vacancy.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,28 +86,6 @@
       <option name="presentableId" value="Default" />
       <updated>1721148696811</updated>
     </task>
-    <task id="LOCAL-00001" summary="create structure and classes">
-      <option name="closed" value="true" />
-      <created>1721150922687</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1721150922687</updated>
-    </task>
-    <task id="LOCAL-00002" summary="create new branches">
-      <option name="closed" value="true" />
-      <created>1721151187491</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1721151187491</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="create structure and classes" />
-    <MESSAGE value="create new branches" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new branches" />
   </component>
 </project>
