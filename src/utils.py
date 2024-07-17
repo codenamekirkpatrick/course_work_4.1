@@ -1,11 +1,11 @@
 from src.hh_api import HeadHunterAPI
 from src.json_saver import JSONSaver
-from src.vacancy import Vacancy
+
 
 
 def user_choice():
     keyword = input("Какую профессию ищите?\n").lower()
-    per_page = int(input("Сколько профессии вывести?\n"))
+    per_page = int(input("Сколько профессий вывести?\n"))
 
     hh_api = HeadHunterAPI()
     from_hh = hh_api.get_filter_vacancies(keyword, per_page=per_page)

@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class GetVacanciesAPI(ABC):
-    """Абстрактный класс для получения вакансии с hh.ru"""
+    """Абстрактный класс для получения вакансии с сайта hh.ru"""
 
     @abstractmethod
     def get_response(self, keyword, per_page): # получение ответа

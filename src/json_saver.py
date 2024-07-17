@@ -1,5 +1,4 @@
 import json
-
 from config import VACANCIES_PATH
 from src.saver import Saver
 from src.vacancy import Vacancy
