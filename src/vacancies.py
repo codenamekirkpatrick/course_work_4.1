@@ -1,5 +1,5 @@
 
-class Vacancies:
+class Vacancies():
 
     """ Класс для обработки вакансии """
 

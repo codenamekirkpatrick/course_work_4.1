@@ -4,13 +4,24 @@ class Vacancy:
     __slots__ = ("name", "alternate_url", "salary_from", "salary_to", "area_name", "requirement", "responsibility")
 
     def __init__(self, name, alternate_url, salary_from, salary_to, area_name, requirement, responsibility):
+        """Конструктор клааса"""
         self.name = name
         self.alternate_url = alternate_url
-        self.salary_from: int = salary_from
-        self.salary_to: int = salary_to
         self.area_name = area_name
         self.requirement = requirement
         self.responsibility = responsibility
+        self.__validate_salary(salary_from, salary_to)
+
+    def __validate_salary(self, salary_from, salary_to):
+        """Метод для валидации зарплаты"""
+        if salary_from is None:
+            self.salary_from = 0
+        else:
+            self.salary_from = salary_from if salary_from else 0
+        if salary_to is None:
+            self.salary_to = 0
+        else:
+            self.salary_to = salary_to if salary_to else 0
 
     def __str__(self):
         return (f"Наименование вакансии: {self.name},\n"
@@ -21,8 +32,6 @@ class Vacancy:
                 f"{self.responsibility}\n")
 
     def __lt__(self, other):
-
-        # if isinstance(self and other, int):
         return self.salary_from < other.salary_from
 
     @staticmethod
