@@ -6,20 +6,20 @@ from src.vacancies import Vacancies
 
 
 class JSONSaver(Vacancies, Saver):
-
+    """Класс для записи в JSON файл"""
     def write_data(self):
-
+        """Метод записи информации"""
         try:
             data = json.load(open(VACANCIES_PATH))
         except FileNotFoundError:
             data = []
-
         data.append(self.to_list_dict())
 
         with open(VACANCIES_PATH, "w") as file:
             json.dump(self.to_list_dict(), file, indent=7, ensure_ascii=False)
 
     def get_data(self):
+        """Метод получения информации"""
         with open(VACANCIES_PATH, encoding="UTF-8") as file:
             data = json.load(file)
             self.__all_vacancies = []
@@ -27,4 +27,5 @@ class JSONSaver(Vacancies, Saver):
                 self.all_vacancies.append(Vacancy.vacancies_lst(vacancy))
 
     def del_data(self, data_json):
+        """Метод удаления информации"""
         del data_json
