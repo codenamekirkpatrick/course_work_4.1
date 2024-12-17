@@ -4,6 +4,7 @@ from src.json_saver import JSONSaver
 
 
 def user_choice():
+    """ Функция для работы с пользователем, записи в json-файл """
     keyword = input("Какую профессию ищите?\n").lower()
     per_page = int(input("Сколько профессий вывести?\n"))
 
@@ -19,3 +20,4 @@ def user_choice():
     json_write.sorted_vacancy_by_salary()
     json_write.write_data()
     print("Данные записаны в json файл")
+
